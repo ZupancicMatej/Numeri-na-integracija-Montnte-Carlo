@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 double Funkcija (double x) {
-    return (asinh(pow(x, 1.5) + sin(pow(x,2/3)) + cos(3*x) + 1/3))/(pow(x, 5) + 1);
+    return (asinh(pow(x, 1.5) + sin(pow(x,2/3)) + cos(3*x) + 1/3))/(pow(x, 5) + 1); //Tu vpiši svojo funkcijo.
 }
 
 double Integral (double *vi, int n,  double a, double b) {
@@ -28,8 +28,8 @@ double Integral (double *vi, int n,  double a, double b) {
 
 int main(void) {
 
-    double a = 0;
-    double b = 4; 
+    double a = 0; //Spodnja meja.
+    double b = 4; //Zgornja meja.
     double v = 0;
     double *vi = &v;
     int n = 2;
